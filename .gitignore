@@ -1,0 +1,17 @@
+# Python virtual environment
+vbcu_env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Generated folders
+uploads/
+reports/
+temp/
+
+# Streamlit files
+.streamlit/
