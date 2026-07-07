@@ -1,192 +1,127 @@
-# 🎤 Voice-Based Concept Understanding Analyser (VBCUA)
+# Voice-Based Concept Understanding Analyser
 
-> An AI-powered Streamlit application that converts spoken explanations into text and assists in evaluating conceptual understanding.
-
----
-
-# 📌 Project Overview
-
-The **Voice-Based Concept Understanding Analyser (VBCUA)** is an AI-powered educational application developed as part of the **SmartBridge Skill Wallet Program**.
-
-The application enables users to upload a voice recording explaining a concept. It converts the speech into text using **OpenAI Whisper** and displays the transcript through an interactive Streamlit interface. The project also includes modules for scoring, filler word detection, reporting, and database integration, providing a foundation for concept understanding analysis.
+## SmartBridge AI/ML and Gen AI Track Project
+*(Google Cloud Generative AI Learning Program)*
 
 ---
 
-# 🚀 Features
+## Project Overview
 
-- 🎤 Upload WAV audio files
-- 🗣️ Speech-to-Text transcription using OpenAI Whisper
-- 📚 Select reference concepts from a predefined knowledge base
-- 📝 Display generated transcript
-- 📊 Modular scoring engine
-- 💬 Filler word detection module
-- 📁 Database support
-- 📈 Interactive Streamlit interface
+The **Voice-Based Concept Understanding Analyser** is an AI-powered educational application developed as part of the **SmartBridge AI/ML and Gen AI Track**. The application enables users to upload a WAV audio file containing a spoken explanation of a selected concept. Using **OpenAI Whisper**, the system converts speech into text and displays the generated transcript through an interactive **Streamlit** web interface.
+
+The project demonstrates the practical application of Artificial Intelligence and Generative AI in speech recognition and educational technology.
 
 ---
 
-# 🛠️ Technologies Used
+## Features
 
-| Technology | Purpose |
-|------------|---------|
-| Python | Programming Language |
-| Streamlit | Web Application Framework |
-| OpenAI Whisper | Speech-to-Text |
-| FFmpeg | Audio Processing |
-| JSON | Reference Concepts |
-| SQLite | Database Support |
-| Git & GitHub | Version Control |
+- User-friendly Streamlit interface
+- Reference concept selection
+- WAV audio file upload
+- Speech-to-text conversion using OpenAI Whisper
+- Accurate transcript generation
+- Real-time transcript display
+- Error handling
+- Modular and reusable project architecture
 
 ---
 
-# 📂 Project Structure
+## Technology Stack
+
+| Category | Technology |
+|----------|------------|
+| Programming Language | Python |
+| Frontend | Streamlit |
+| AI Model | OpenAI Whisper |
+| Audio Processing | FFmpeg |
+| Data Storage | JSON |
+| IDE | Visual Studio Code |
+| Version Control | Git & GitHub |
+
+---
+
+## Repository Structure
 
 ```
 Voice-Based-Concept-Understanding-Analyser/
 │
 ├── app.py
-├── README.md
 ├── requirements.txt
-├── .gitignore
-│
-├── assets/
-├── database/
+├── README.md
 ├── modules/
-│   ├── audio_utils.py
-│   ├── database.py
-│   ├── filler_detector.py
-│   ├── report_engine.py
-│   ├── scoring_engine.py
-│   └── speech_to_text.py
-│
 ├── reference_concepts/
-│   └── concepts.json
 │
-├── screenshots/
-└── uploads/
+├── 1. Brainstorming & Ideation/
+├── 2. Requirement Analysis/
+├── 3. Project Design Phase/
+├── 4. Project Planning Phase/
+├── 5. Project Development Phase/
+├── 6. Project Testing/
+├── 7. Project Documentation/
+└── 8. Project Demonstration/
 ```
 
 ---
 
-# ⚙️ Installation
+## Project Workflow
 
-### 1. Clone the Repository
+1. Select a reference concept.
+2. Upload a WAV audio file.
+3. Process the audio using OpenAI Whisper.
+4. Convert speech into text.
+5. Display the generated transcript.
+
+---
+
+## Installation
 
 ```bash
 git clone https://github.com/Shahina07/Voice-Based-Concept-Understanding-Analyser.git
-```
-
-### 2. Navigate to the Project Directory
-
-```bash
 cd Voice-Based-Concept-Understanding-Analyser
-```
-
-### 3. Create a Virtual Environment (Optional)
-
-```bash
-conda create -n vbcu_env python=3.10
-conda activate vbcu_env
-```
-
-### 4. Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
-
-### 5. Run the Application
-
-```bash
 streamlit run app.py
 ```
 
-Open your browser and visit:
+---
 
-```
-http://localhost:8501
-```
+## Project Deliverables
+
+- Source Code
+- Brainstorming & Ideation
+- Requirement Analysis
+- Project Design Phase
+- Project Planning Phase
+- Project Development Phase
+- Project Testing
+- Project Documentation
+- Project Demonstration
 
 ---
 
-# 🔄 Application Workflow
+## Team Members
 
-```
-Upload WAV Audio
-        │
-        ▼
-Speech-to-Text using Whisper
-        │
-        ▼
-Generate Transcript
-        │
-        ▼
-Display Transcript
-```
+
+| **Shahina** | Team Lead, Project Development, AI Integration, Documentation, GitHub Repository Management |
+| **Somudala Niharika** | Team Member |
+| **Hari Kumar Saladhi** | Team Member |
+| **Shaik Karishma** | Team Member |
 
 ---
 
-# 📸 Screenshots
+## GitHub Repository
 
-Add screenshots of:
-
-- Home Page
-- Audio Upload
-- Transcript Output
-
-Store them inside the `screenshots` folder.
+**Repository:**  
+https://github.com/Shahina07/Voice-Based-Concept-Understanding-Analyser
 
 ---
 
-# 🎯 Future Enhancements
-
-- Semantic similarity analysis
-- Concept understanding score generation
-- PDF report generation
-- Support for MP3 and MP4 audio
-- Live microphone recording
-- AI-generated feedback
-- Multilingual speech support
-
----
-
-# 👨‍💻 Team Members
-
-### Team Lead
-
-- Shahina
-
-### Team Members
-
-- Somudala Niharika
-- Hari Kumar Saladhi
-- Shaik Karishma
-
----
-
-# 📜 License
-
-This project was developed for educational purposes as part of the **SmartBridge Skill Wallet Program**.
-
----
-
-# 👩‍💻 Developed By
-
-**Shahina**
-
-B.Tech (2023–2027)
-
-Raghu Engineering College
-
-GitHub: https://github.com/Shahina07
-
----
-
-# 🎥 Demo Video
-
-The project demonstration video can be viewed using the link below:
+## Project Demonstration
 
 **Demo Video:**  
-https://drive.google.com/file/d/1Ug_BGCBkhB4x_rIiVg7mSKCJL8kRoasR/view?usp=drive_link
+https://drive.google.com/file/d/1Ug_BGCBkhB4x_rIiVg7mSKCJL8kRoasR/view
 
 ---
+
+## Acknowledgement
+
+This project was developed as part of the **SmartBridge AI/ML and Gen AI Track (Google Cloud Generative AI Learning Program)**. We sincerely thank **SmartBridge**, **Google Cloud Skills Boost**, and **Raghu Engineering College** for providing the opportunity, resources, and guidance to complete this project successfully.
